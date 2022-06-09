@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="App_.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App_"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <NavigationView x:Name="mainView" Loaded="NavigationView_Loaded" SelectionChanged="NavigationView_SelectionChanged" >
+            <NavigationView.MenuItems>
+                <NavigationViewItem Icon="Home" Tag="Amount" Content="Счет"/>
+                <NavigationViewItem Icon="Add" Tag="Operation" Content="Новая операция"/>
+                <NavigationViewItem Icon="Bookmarks" Tag="History" Content="История"/>
+            </NavigationView.MenuItems>
+            <ScrollViewer>
+                <Frame x:Name="ContentFrame"/>
+            </ScrollViewer>
+        </NavigationView>
+    </Grid>
+</Page>

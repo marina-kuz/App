@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="App_.HistoryPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App_"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock FontSize="150" HorizontalAlignment="Left" Margin="498,314,0,0" Text="History" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
