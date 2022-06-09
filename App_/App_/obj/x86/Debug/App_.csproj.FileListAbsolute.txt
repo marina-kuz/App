@@ -107,3 +107,9 @@ C:\GitRepos\App_\App_\obj\x86\Debug\resources.en-us.resfiles
 C:\GitRepos\App_\App_\obj\x86\Debug\resources.en-us.resfiles.intermediate
 C:\GitRepos\App_\App_\obj\x86\Debug\ProjectArchitectures.txt
 C:\GitRepos\App_\App_\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424563200000000.json
+C:\GitRepos\App_\App_\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml
+C:\GitRepos\App_\App_\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll
+C:\GitRepos\App_\App_\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.pdb
+C:\GitRepos\App_\App_\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.pri.xml
+C:\GitRepos\App_\App_\obj\x86\Debug\Microsoft.UI.Xaml.pri.xml
+C:\GitRepos\App_\App_\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\en-US\Microsoft.Toolkit.Uwp.UI.Controls.Resources.resw

@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\GitRepos\App_\App_\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-09T09:06:34.294</Modified>
+      <Modified>2022-06-09T13:39:51.908</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\App_.exe">
       <PackagePath>entrypoint\App_.exe</PackagePath>
-      <Modified>2022-06-09T09:04:45.404</Modified>
+      <Modified>2022-06-09T13:39:47.462</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\microsoft.bcl.asyncinterfaces\1.1.1\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
@@ -206,27 +206,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\App_.xr.xml">
       <PackagePath>App_.xr.xml</PackagePath>
-      <Modified>2022-06-09T09:04:37.286</Modified>
+      <Modified>2022-06-09T13:35:26.465</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-06-09T09:04:41.481</Modified>
+      <Modified>2022-06-09T13:39:46.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\AmountPage.xbf">
       <PackagePath>AmountPage.xbf</PackagePath>
-      <Modified>2022-06-09T09:04:41.482</Modified>
+      <Modified>2022-06-09T13:39:46.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\HistoryPage.xbf">
       <PackagePath>HistoryPage.xbf</PackagePath>
-      <Modified>2022-06-09T09:04:41.482</Modified>
+      <Modified>2022-06-09T13:39:46.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-06-09T09:04:41.483</Modified>
+      <Modified>2022-06-09T13:39:46.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\NewOperationPage.xbf">
       <PackagePath>NewOperationPage.xbf</PackagePath>
-      <Modified>2022-06-09T09:04:41.483</Modified>
+      <Modified>2022-06-09T13:39:46.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -238,7 +238,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\Core\App_.exe">
       <PackagePath>App_.exe</PackagePath>
-      <Modified>2022-06-09T09:06:34.218</Modified>
+      <Modified>2022-06-09T13:39:51.895</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

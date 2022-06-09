@@ -9,7 +9,40 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="175,0,0,0" Text="NewOperation" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="150"/>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <TextBox x:Name="summTB" Grid.Column="0" Header="Сумма операции:"  HorizontalAlignment="Stretch" Margin="20,0,20,0" 
+                     FontSize="25" TextWrapping="Wrap" VerticalAlignment="Center" MaxHeight="150" />
+            <ComboBox x:Name="operationsCB" Grid.Column="1" Header="Тип операции:" HorizontalAlignment="Stretch" 
+                      Margin="20,0,20,0" FontSize="25" VerticalAlignment="Center" MaxHeight="150"
+                      SelectionChanged="operationsCB_SelectionChanged">
+                <ComboBoxItem Content="Расход" />
+                <ComboBoxItem Content="Доход" />
+            </ComboBox>
+        </Grid>
+        <ComboBox x:Name="categoriesCB" Grid.Row="1" Header="Категории:" HorizontalAlignment="Stretch" 
+                      Margin="20,0,20,0" FontSize="25" VerticalAlignment="Center" MaxHeight="150"
+                      SelectionChanged="categoriesCB_SelectionChanged">
+        </ComboBox>
+        <TextBox x:Name="commentsTB" Grid.Row="2" Header="Комментарий:"  HorizontalAlignment="Stretch" Margin="20,0,20,0"
+                     FontSize="25" TextWrapping="Wrap" VerticalAlignment="Center" MaxHeight="150"/>
+
+        <Button x:Name="addBtn" Content="Записать" Margin="20,0,100,0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Right"
+                Background="LightBlue" FontSize="25" MinWidth="150" Click="addBtn_Click"/>
+
+        <TextBlock x:Name="test" Grid.Row="3" HorizontalAlignment="Stretch" Margin="20,0,20,0"
+                     FontSize="25" TextWrapping="Wrap" VerticalAlignment="Top" MaxHeight="150" Foreground="Red"/>
+
 
     </Grid>
 </Page>

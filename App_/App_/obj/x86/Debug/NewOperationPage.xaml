@@ -1,0 +1,49 @@
+﻿<Page
+    x:Class="App_.NewOperationPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App_"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <TextBox x:ConnectionId='6' x:Name="summTB" Grid.Column="0" Header="Сумма операции:"  HorizontalAlignment="Stretch" Margin="20,0,20,0" 
+                     FontSize="25" TextWrapping="Wrap" VerticalAlignment="Center" MaxHeight="150" />
+            <ComboBox x:ConnectionId='7' x:Name="operationsCB" Grid.Column="1" Header="Тип операции:" HorizontalAlignment="Stretch" 
+                      Margin="20,0,20,0" FontSize="25" VerticalAlignment="Center" MaxHeight="150"
+                                                                      >
+                <ComboBoxItem Content="Расход" />
+                <ComboBoxItem Content="Доход" />
+            </ComboBox>
+        </Grid>
+        <ComboBox x:ConnectionId='2' x:Name="categoriesCB" Grid.Row="1" Header="Категории:" HorizontalAlignment="Stretch" 
+                      Margin="20,0,20,0" FontSize="25" VerticalAlignment="Center" MaxHeight="150"
+                                                                      >
+        </ComboBox>
+        <TextBox x:ConnectionId='3' x:Name="commentsTB" Grid.Row="2" Header="Комментарий:"  HorizontalAlignment="Stretch" Margin="20,0,20,0"
+                     FontSize="25" TextWrapping="Wrap" VerticalAlignment="Center" MaxHeight="150"/>
+
+        <Button x:ConnectionId='4' x:Name="addBtn" Content="Записать" Margin="20,0,100,0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Right"
+                Background="LightBlue" FontSize="25" MinWidth="150"                     />
+
+        <TextBlock x:ConnectionId='5' x:Name="test" Grid.Row="3" HorizontalAlignment="Stretch" Margin="20,0,20,0"
+                     FontSize="25" TextWrapping="Wrap" VerticalAlignment="Top" MaxHeight="150" Foreground="Red"/>
+
+
+    </Grid>
+</Page>
+

@@ -9,7 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <NavigationView x:Name="mainView" Loaded="NavigationView_Loaded" SelectionChanged="NavigationView_SelectionChanged" >
+        <NavigationView x:Name="mainView" Loaded="NavigationView_Loaded" 
+                        SelectionChanged="NavigationView_SelectionChanged" 
+                        >
             <NavigationView.MenuItems>
                 <NavigationViewItem Icon="Home" Tag="Amount" Content="Счет"/>
                 <NavigationViewItem Icon="Add" Tag="Operation" Content="Новая операция"/>

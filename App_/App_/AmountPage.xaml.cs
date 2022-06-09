@@ -12,19 +12,21 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-
-// Документацию по шаблону элемента "Пустая страница" см. по адресу https://go.microsoft.com/fwlink/?LinkId=234238
+using System.Collections.ObjectModel;
+using Microsoft.EntityFrameworkCore;
 
 namespace App_
 {
-    /// <summary>
-    /// Пустая страница, которую можно использовать саму по себе или для перехода внутри фрейма.
-    /// </summary>
     public sealed partial class AmountPage : Page
     {
+        public List<Person> person { get; set; }
         public AmountPage()
         {
             this.InitializeComponent();
+            person = new List<Person>
+            {
+                new Person {Id=1, Amount_money=1000 }
+            };
         }
     }
 }

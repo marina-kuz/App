@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4XLvJoibNVD9evN5doIeJPhRD4hTC4Z/hij/ks4X1Y+atM9zNeCDG4FWbQ8u9xBcylvbZ0UdgczwEqy8PmiJYQ==",
+  "dgSpecHash": "cCPLzIp7sDn0NuoRS+sNwJGHeTnwqFmI39HjX5dnikB+2AfLoKhJ1i36Zn5U+thQcJWwgbkv9v19+kItYaYyYA==",
   "success": true,
   "projectFilePath": "C:\\GitRepos\\App_\\App_\\App_.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,8 @@
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.11\\microsoft.net.uwpcoreruntimesdk.2.2.11.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.universalwindowsplatform\\6.2.11\\microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512",
+    "C:\\Users\\Марина\\.nuget\\packages\\microsoft.toolkit.uwp.ui.controls.datagrid\\7.1.2\\microsoft.toolkit.uwp.ui.controls.datagrid.7.1.2.nupkg.sha512",
+    "C:\\Users\\Марина\\.nuget\\packages\\microsoft.ui.xaml\\2.7.0\\microsoft.ui.xaml.2.7.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.2.11\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm.microsoft.net.native.compiler\\2.2.9-rel-29512-01\\runtime.win10-arm.microsoft.net.native.compiler.2.2.9-rel-29512-01.nupkg.sha512",

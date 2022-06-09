@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace App_
 {
-    class Person
+    public class Person
     {
         public int Id { get; set; }
         public int Amount_money { get; set; }

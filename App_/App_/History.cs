@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace App_
 {
-    class History
+    public class History
     {
         public int Id { get; set; }
         public int PersonId {get;set;}
