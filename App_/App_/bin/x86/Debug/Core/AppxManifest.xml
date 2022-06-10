@@ -24,7 +24,7 @@
     <Resource Language="RU-RU" />
   </Resources>
   <Applications>
-    <Application Id="App" Executable="App_.exe" EntryPoint="App_.App">
+    <Application Id="App" Executable="Планировщик бюджета.exe" EntryPoint="App_.App">
       <uap:VisualElements DisplayName="App_" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="App_" BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
@@ -37,7 +37,7 @@
   <Extensions>
     <Extension Category="windows.activatableClass.inProcessServer">
       <InProcessServer>
-        <Path>App_.exe</Path>
+        <Path>Планировщик бюджета.exe</Path>
         <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Markup.ReflectionXamlMetadataProvider" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
@@ -52,6 +52,7 @@
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="10.0.19041.685" />
+    <build:Item Name="SQLite.UWP.2015" Version="3.38.0" />
     <build:Item Name="MakePri.exe" Version="10.0.19041.685 (WinBuild.160101.0800)" />
   </build:Metadata>
 </Package>

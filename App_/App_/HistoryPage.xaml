@@ -11,15 +11,14 @@
     Loaded="Page_Loaded">
 
     <Grid>
-        <Custom:DataGrid x:Name="dataGrid" ItemsSource="{x:Bind list}" Margin="25"
-                         AutoGenerateColumns="False" GridLinesVisibility="All"
-                         CanUserResizeColumns="False" CanUserReorderColumns="False" IsReadOnly="True"
-                         FrozenColumnCount="5" >
+        <Custom:DataGrid x:Name="dataGrid" AutoGenerateColumns="False" ItemsSource="{x:Bind list}" Margin="20"
+                            GridLinesVisibility="All" HorizontalAlignment="Center" VerticalAlignment="Top"
+                            CanUserResizeColumns="False" CanUserReorderColumns="False" IsReadOnly="True">
             <Custom:DataGrid.Columns>
-                <Custom:DataGridTextColumn x:Name="date" Binding="{Binding Path=Date}" Header="Дата" Width="SizeToCells"/>
+                <Custom:DataGridTextColumn x:Name="date" Binding="{Binding Path=Date}" Header="Дата" Width="SizeToCells" MinWidth="100"/>
                 <Custom:DataGridTextColumn x:Name="money"  Binding="{Binding Path=Money}" Header="Сумма" Width="SizeToCells" MinWidth="100" MaxWidth="150"/>
-                <Custom:DataGridTextColumn x:Name="operation" Binding="{Binding  Path=Operation}" Header="Тип" Width="SizeToCells"/>
-                <Custom:DataGridTextColumn x:Name="category" Binding="{Binding Path=Category}" Header="Категория" Width="SizeToCells"/>
+                <Custom:DataGridTextColumn x:Name="operation" Binding="{Binding  Path=Operation}" Header="Тип" Width="SizeToCells" MinWidth="100"/>
+                <Custom:DataGridTextColumn x:Name="category" Binding="{Binding Path=Category}" Header="Категория" Width="SizeToCells" MinWidth="100"/>
                 <Custom:DataGridTextColumn x:Name="comment" Binding="{Binding Path=Comment}" Header="Комментарий" Width="SizeToHeader" MaxWidth="150"/>
             </Custom:DataGrid.Columns>
         </Custom:DataGrid>

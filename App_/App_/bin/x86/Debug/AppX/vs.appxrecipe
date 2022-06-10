@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\GitRepos\App_\App_\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>2E0DC5E777834FFD8D12CACE0A46997066645BA63BF89F428148F583432918B2</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>48049EF66D94B42605BD246A93509CE34EDAC9A9668454496713733183DEDA75</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>0bb57ead-c7eb-449a-a80b-0255e716e20f_1.0.0.0_x86__arjdtev091pna</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>0bb57ead-c7eb-449a-a80b-0255e716e20f_arjdtev091pna!App</RegisteredUserModeAppID>
     <RegisteredPackageID>0bb57ead-c7eb-449a-a80b-0255e716e20f</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\GitRepos\App_\App_\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-10T13:22:11.126</Modified>
+      <Modified>2022-06-10T22:47:00.782</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\App_.exe">
-      <PackagePath>entrypoint\App_.exe</PackagePath>
-      <Modified>2022-06-10T13:22:01.923</Modified>
+    <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\Планировщик бюджета.exe">
+      <PackagePath>entrypoint\Планировщик бюджета.exe</PackagePath>
+      <Modified>2022-06-10T22:46:58.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\microsoft.bcl.asyncinterfaces\1.1.1\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
@@ -142,10 +142,6 @@
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
       <Modified>2020-02-20T20:57:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GitRepos\App_\ClassLibrary\bin\x86\Debug\ClassLibrary.dll">
-      <PackagePath>ClassLibrary.dll</PackagePath>
-      <Modified>2022-06-10T13:01:24.032</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-01T21:52:00.000</Modified>
@@ -153,6 +149,10 @@
     <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</PackagePath>
       <Modified>2020-08-12T15:03:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UAP\v0.8.0.0\ExtensionSDKs\SQLite.UWP.2015\3.38.0\Redist\Debug\x86\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2022-06-10T16:19:25.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -192,29 +192,29 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-06-09T04:42:18.055</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\App_.xr.xml">
-      <PackagePath>App_.xr.xml</PackagePath>
-      <Modified>2022-06-10T13:22:01.031</Modified>
+    <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\Планировщик бюджета.xr.xml">
+      <PackagePath>Планировщик бюджета.xr.xml</PackagePath>
+      <Modified>2022-06-10T22:03:57.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-06-10T13:22:01.309</Modified>
+      <Modified>2022-06-10T22:46:58.212</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\AmountPage.xbf">
       <PackagePath>AmountPage.xbf</PackagePath>
-      <Modified>2022-06-10T13:22:01.330</Modified>
+      <Modified>2022-06-10T22:46:58.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\HistoryPage.xbf">
       <PackagePath>HistoryPage.xbf</PackagePath>
-      <Modified>2022-06-10T13:22:01.330</Modified>
+      <Modified>2022-06-10T22:46:58.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-06-10T13:22:01.331</Modified>
+      <Modified>2022-06-10T22:46:58.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\NewOperationPage.xbf">
       <PackagePath>NewOperationPage.xbf</PackagePath>
-      <Modified>2022-06-10T13:22:01.331</Modified>
+      <Modified>2022-06-10T22:46:58.214</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -222,11 +222,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-06-10T12:19:03.473</Modified>
+      <Modified>2022-06-10T22:04:02.920</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\Core\App_.exe">
-      <PackagePath>App_.exe</PackagePath>
-      <Modified>2022-06-10T13:22:11.043</Modified>
+    <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\Core\Планировщик бюджета.exe">
+      <PackagePath>Планировщик бюджета.exe</PackagePath>
+      <Modified>2022-06-10T22:47:00.768</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

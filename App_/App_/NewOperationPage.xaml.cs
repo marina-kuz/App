@@ -3,62 +3,77 @@ using System.Collections.Generic;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using System.Text.RegularExpressions;
-using ClassLibrary;
+using App_.DataBase;
+using Windows.Storage;
 
 namespace App_
 {
     public sealed partial class NewOperationPage : Page
     {
-        string operation;
-        string category;
+        string operation; //строка для хранения выбранной операции, которая пойдет в БД
+        string category; //строка для хранения выбранной категории, которая пойдет в БД
         public NewOperationPage()
         {
             this.InitializeComponent();
             operation = null;
+            category=null;
         }
 
+        //Добавление новых данных в БД
         private void addItem()
         {
+            //новое число, которое надо будет суммировать к основному бюджету
             int m=0;
-            int amount = 0;
+            //новая сумма бюджета
+            int amount;
             if(operation=="Расход")
             {
-                m += int.Parse(summTB.Text) * (-1);
+                m += int.Parse(summTB.Text) * (-1); 
             }
             else
             {
                 m += int.Parse(summTB.Text);
             }
-            amount = int.Parse(Class.GetAmountOfMoney())+ m;
-            Class.AddData(amount,operation, DateTime.Now.ToShortDateString(),
-                    m,category, commentsTB.Text);
+            amount = int.Parse(DataBaseClass.GetAmountOfMoney())+ m;
+            string tt = DateTime.Now.Hour.ToString()+":"+ DateTime.Now.Minute.ToString();
+            //добавляем новые данные в БД
+            DataBaseClass.AddData(amount,operation, DateTime.Now.ToString(), m,category, commentsTB.Text);
         }
+        //изменение категории
         private void categoriesCB_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            var comboBoxItem = categoriesCB.Items[categoriesCB.SelectedIndex] as ComboBoxItem;
-            string selectedcmb = comboBoxItem.Content.ToString();
-            category = selectedcmb;
+            //если элемент comboBox не пустое
+            if (categoriesCB.SelectedIndex != -1)
+            {
+                var comboBoxItem = categoriesCB.Items[categoriesCB.SelectedIndex] as ComboBoxItem;
+                string selectedcmb = comboBoxItem.Content.ToString();
+                category = selectedcmb;//сохраняем выбранную категорию в переменную в виде string
+            }
         }
-
+        //изменение операции
         private void operationsCB_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             List<string> income=new List<string> { "Заработная плата", "Возврат долга", "Дивиденты" };
             List<string> expense = new List<string> { "Развлечения", "Еда", "Транспорт" };
-            var comboBoxItem = operationsCB.Items[operationsCB.SelectedIndex] as ComboBoxItem;
-            string selectedcmb = comboBoxItem.Content.ToString();
-
-            switch (selectedcmb)
+            //если элемент comboBox не пустое
+            if (operationsCB.SelectedIndex != -1)
             {
-                case "Доход": 
-                    operation = "Доход";
-                    addItemsInComboBox(income);
-                    break;
-                case "Расход": 
-                    operation = "Расход";
-                    addItemsInComboBox(expense);
-                    break;
+                var comboBoxItem = operationsCB.Items[operationsCB.SelectedIndex] as ComboBoxItem;
+                string selectedcmb = comboBoxItem.Content.ToString();
+                switch (selectedcmb)
+                {
+                    case "Доход":
+                        operation = "Доход";
+                        addItemsInComboBox(income);
+                        break;
+                    case "Расход":
+                        operation = "Расход";
+                        addItemsInComboBox(expense);
+                        break;
+                }
             }
         }
+        //меняем элементы в comboBox категории в зависимости от типа операции
         private void addItemsInComboBox(List<string> str)
         {
             categoriesCB.Items.Clear();
@@ -69,23 +84,35 @@ namespace App_
                 categoriesCB.Items.Add(item);
             }
         }
-
+        //проверка перед записью на правильность заполнения полей
         private void check_Click(object sender, RoutedEventArgs e)
         {
-            Regex regex = new Regex("[^0-9]+");
+            Regex regex = new Regex("[^0-9]+"); //через рег.выражения проверяем что в поле "Сумма" введено число
+            //Проверка на пустоту
             if (regex.IsMatch(summTB.Text))
             {
-                test.Text = "Сумма должна состоять из цифр!";
+                errorsTB.Text = "Сумма должна состоять из цифр!"; //Вывод ошибки
             }
-            else if(operationsCB.SelectedIndex>-1 && categoriesCB.SelectedIndex > -1 
-                && commentsTB.Text!=null && summTB.Text!=null)
+            else if(operationsCB.SelectedIndex>-1 && categoriesCB.SelectedIndex > -1 && commentsTB.Text!="" && summTB.Text!="") 
             {
                 addItem();
+                errorsTB.Text = "Запись добавлена!";
             }
             else
             {
-                test.Text = "Не все поля заполнены!";
+                errorsTB.Text="Не все поля заполнены!"; 
             }
+        }
+        //очистка полей
+        private void clearBtn_Click(object sender, RoutedEventArgs e)
+        {
+            operation=null;
+            category=null;
+            commentsTB.Text = "";
+            summTB.Text = "";
+            operationsCB.SelectedIndex = -1;
+            categoriesCB.SelectedIndex = -1;
+            categoriesCB.Items.Clear();
         }
     }
 }

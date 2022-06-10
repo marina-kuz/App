@@ -1,0 +1,27 @@
+﻿<Page x:ConnectionId='1'
+    xmlns:local="using:App_"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Custom="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    x:Class="App_.HistoryPage"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                        >
+
+    <Grid>
+        <Custom:DataGrid x:ConnectionId='2' x:Name="dataGrid" AutoGenerateColumns="False"                             Margin="20"
+                            GridLinesVisibility="All" HorizontalAlignment="Center" VerticalAlignment="Top"
+                            CanUserResizeColumns="False" CanUserReorderColumns="False" IsReadOnly="True">
+            <Custom:DataGrid.Columns>
+                <Custom:DataGridTextColumn x:ConnectionId='3' x:Name="date" Binding="{Binding Path=Date}" Header="Дата" Width="SizeToCells" MinWidth="100"/>
+                <Custom:DataGridTextColumn x:ConnectionId='4' x:Name="money"  Binding="{Binding Path=Money}" Header="Сумма" Width="SizeToCells" MinWidth="100" MaxWidth="150"/>
+                <Custom:DataGridTextColumn x:ConnectionId='5' x:Name="operation" Binding="{Binding  Path=Operation}" Header="Тип" Width="SizeToCells" MinWidth="100"/>
+                <Custom:DataGridTextColumn x:ConnectionId='6' x:Name="category" Binding="{Binding Path=Category}" Header="Категория" Width="SizeToCells" MinWidth="100"/>
+                <Custom:DataGridTextColumn x:ConnectionId='7' x:Name="comment" Binding="{Binding Path=Comment}" Header="Комментарий" Width="SizeToHeader" MaxWidth="150"/>
+            </Custom:DataGrid.Columns>
+        </Custom:DataGrid>
+    </Grid>
+</Page>
+

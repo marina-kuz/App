@@ -25,8 +25,8 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\App_.exe">
-      <PackagePath>entrypoint\App_.exe</PackagePath>
+    <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\Планировщик бюджета.exe">
+      <PackagePath>entrypoint\Планировщик бюджета.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\microsoft.bcl.asyncinterfaces\1.1.1\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
@@ -106,14 +106,14 @@
     <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\system.runtime.compilerservices.unsafe\4.7.1\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GitRepos\App_\ClassLibrary\bin\x86\Debug\ClassLibrary.dll">
-      <PackagePath>ClassLibrary.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UAP\v0.8.0.0\ExtensionSDKs\SQLite.UWP.2015\3.38.0\Redist\Debug\x86\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -145,8 +145,8 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\App_.xr.xml">
-      <PackagePath>App_.xr.xml</PackagePath>
+    <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\Планировщик бюджета.xr.xml">
+      <PackagePath>Планировщик бюджета.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
@@ -169,8 +169,8 @@
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\Core\App_.exe">
-      <PackagePath>App_.exe</PackagePath>
+    <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\Core\Планировщик бюджета.exe">
+      <PackagePath>Планировщик бюджета.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

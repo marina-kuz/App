@@ -3,9 +3,6 @@ C:\GitRepos\App_\App_\bin\x86\Debug\AmountPage.xbf
 C:\GitRepos\App_\App_\bin\x86\Debug\HistoryPage.xbf
 C:\GitRepos\App_\App_\bin\x86\Debug\MainPage.xbf
 C:\GitRepos\App_\App_\bin\x86\Debug\NewOperationPage.xbf
-C:\GitRepos\App_\App_\bin\x86\Debug\App_.xr.xml
-C:\GitRepos\App_\App_\bin\x86\Debug\App_.exe
-C:\GitRepos\App_\App_\bin\x86\Debug\App_.pdb
 C:\GitRepos\App_\App_\bin\x86\Debug\resources.pri
 C:\GitRepos\App_\App_\bin\x86\Debug\AppxManifest.xml
 C:\GitRepos\App_\App_\bin\x86\Debug\Core\AppxManifest.xml
@@ -30,7 +27,6 @@ C:\GitRepos\App_\App_\bin\x86\Debug\Microsoft.Extensions.Logging.Abstractions.dl
 C:\GitRepos\App_\App_\bin\x86\Debug\Microsoft.Extensions.Options.dll
 C:\GitRepos\App_\App_\bin\x86\Debug\Microsoft.Extensions.Primitives.dll
 C:\GitRepos\App_\App_\bin\x86\Debug\System.Runtime.dll
-C:\GitRepos\App_\App_\bin\x86\Debug\SQLitePCLRaw.batteries_v2.dll
 C:\GitRepos\App_\App_\bin\x86\Debug\SQLitePCLRaw.core.dll
 C:\GitRepos\App_\App_\bin\x86\Debug\System.Collections.Immutable.dll
 C:\GitRepos\App_\App_\bin\x86\Debug\System.Diagnostics.DiagnosticSource.dll
@@ -61,8 +57,6 @@ C:\GitRepos\App_\App_\obj\x86\Debug\NewOperationPage.xbf
 C:\GitRepos\App_\App_\obj\x86\Debug\XamlSaveStateFile.xml
 C:\GitRepos\App_\App_\obj\x86\Debug\App_.csproj.CoreCompileInputs.cache
 C:\GitRepos\App_\App_\obj\x86\Debug\App_.csproj.CopyComplete
-C:\GitRepos\App_\App_\obj\x86\Debug\App_.exe
-C:\GitRepos\App_\App_\obj\x86\Debug\App_.pdb
 C:\GitRepos\App_\App_\obj\x86\Debug\ResourceHandlingTask.state
 C:\GitRepos\App_\App_\obj\x86\Debug\FxResources.Microsoft.Bcl.HashCode.SR.resw
 C:\GitRepos\App_\App_\obj\x86\Debug\Microsoft.Data.Sqlite\en-US\Microsoft.Data.Sqlite.Properties.Resources.resw
@@ -103,8 +97,11 @@ C:\GitRepos\App_\App_\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.d
 C:\GitRepos\App_\App_\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.pdb
 C:\GitRepos\App_\App_\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.pri.xml
 C:\GitRepos\App_\App_\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\en-US\Microsoft.Toolkit.Uwp.UI.Controls.Properties.Resources.resw
+C:\GitRepos\App_\App_\bin\x86\Debug\Планировщик бюджета.xr.xml
+C:\GitRepos\App_\App_\bin\x86\Debug\Планировщик бюджета.exe
+C:\GitRepos\App_\App_\bin\x86\Debug\Планировщик бюджета.pdb
+C:\GitRepos\App_\App_\bin\x86\Debug\Core\Планировщик бюджета.exe
+C:\GitRepos\App_\App_\obj\x86\Debug\Планировщик бюджета.exe
+C:\GitRepos\App_\App_\obj\x86\Debug\Планировщик бюджета.pdb
+C:\GitRepos\App_\App_\bin\x86\Debug\SQLitePCLRaw.batteries_v2.dll
 C:\GitRepos\App_\App_\bin\x86\Debug\SQLitePCLRaw.provider.winsqlite3.dll
-C:\GitRepos\App_\App_\bin\x86\Debug\ClassLibrary.dll
-C:\GitRepos\App_\App_\bin\x86\Debug\ClassLibrary.pdb
-C:\GitRepos\App_\App_\bin\x86\Debug\ClassLibrary.pri
-C:\GitRepos\App_\App_\obj\x86\Debug\ClassLibrary.pri.xml

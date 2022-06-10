@@ -1,5 +1,5 @@
-﻿using Windows.UI.Xaml.Controls;
-using ClassLibrary;
+﻿using App_.DataBase;
+using Windows.UI.Xaml.Controls;
 
 namespace App_
 {
@@ -9,7 +9,7 @@ namespace App_
         {
             this.InitializeComponent();
             {
-                amountTB.Text = Class.GetAmountOfMoney();
+                amountTB.Text = DataBaseClass.GetAmountOfMoney();
             };
         }
     }

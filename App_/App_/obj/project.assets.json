@@ -671,20 +671,6 @@
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
-      },
-      "ClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.17763",
-        "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "6.0.5",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.11"
-        },
-        "compile": {
-          "bin/placeholder/ClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ClassLibrary.dll": {}
-        }
       }
     },
     "UAP,Version=v10.0.17763/win10-arm": {
@@ -1535,20 +1521,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
-        }
-      },
-      "ClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.17763",
-        "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "6.0.5",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.11"
-        },
-        "compile": {
-          "bin/placeholder/ClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ClassLibrary.dll": {}
         }
       }
     },
@@ -2402,20 +2374,6 @@
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
-      },
-      "ClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.17763",
-        "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "6.0.5",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.11"
-        },
-        "compile": {
-          "bin/placeholder/ClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ClassLibrary.dll": {}
-        }
       }
     },
     "UAP,Version=v10.0.17763/win10-arm64-aot": {
@@ -3268,20 +3226,6 @@
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
-      },
-      "ClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.17763",
-        "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "6.0.5",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.11"
-        },
-        "compile": {
-          "bin/placeholder/ClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ClassLibrary.dll": {}
-        }
       }
     },
     "UAP,Version=v10.0.17763/win10-x64": {
@@ -4132,20 +4076,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
-        }
-      },
-      "ClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.17763",
-        "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "6.0.5",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.11"
-        },
-        "compile": {
-          "bin/placeholder/ClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ClassLibrary.dll": {}
         }
       }
     },
@@ -4999,20 +4929,6 @@
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
-      },
-      "ClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.17763",
-        "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "6.0.5",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.11"
-        },
-        "compile": {
-          "bin/placeholder/ClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ClassLibrary.dll": {}
-        }
       }
     },
     "UAP,Version=v10.0.17763/win10-x86": {
@@ -5863,20 +5779,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
-        }
-      },
-      "ClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.17763",
-        "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "6.0.5",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.11"
-        },
-        "compile": {
-          "bin/placeholder/ClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ClassLibrary.dll": {}
         }
       }
     },
@@ -6729,20 +6631,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
-        }
-      },
-      "ClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.17763",
-        "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "6.0.5",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.11"
-        },
-        "compile": {
-          "bin/placeholder/ClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ClassLibrary.dll": {}
         }
       }
     }
@@ -11881,16 +11769,10 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "ClassLibrary/1.0.0": {
-      "type": "project",
-      "path": "../ClassLibrary/ClassLibrary.csproj",
-      "msbuildProject": "../ClassLibrary/ClassLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.17763": [
-      "ClassLibrary >= 1.0.0",
       "Microsoft.Data.Sqlite.Core >= 6.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.25",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.11",
@@ -11931,11 +11813,7 @@
       },
       "frameworks": {
         "uap10.0.17763": {
-          "projectReferences": {
-            "C:\\GitRepos\\App_\\ClassLibrary\\ClassLibrary.csproj": {
-              "projectPath": "C:\\GitRepos\\App_\\ClassLibrary\\ClassLibrary.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       }
     },

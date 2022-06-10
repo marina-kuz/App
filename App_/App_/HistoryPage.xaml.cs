@@ -1,21 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.UI.Xaml;
+﻿using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
-using ClassLibrary;
 using System.Collections.ObjectModel;
-using Microsoft.Toolkit.Uwp.UI.Controls;
-using System.Data;
+using App_.DataBase;
 
 namespace App_
 {
@@ -29,8 +15,7 @@ namespace App_
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            list = Class.GetAllData();
-            
+            list = DataBaseClass.GetAllData();
             dataGrid.ItemsSource = list;
         }
     }

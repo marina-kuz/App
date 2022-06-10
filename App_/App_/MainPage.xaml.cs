@@ -17,11 +17,7 @@ namespace App_
 
         private void NavigationView_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
         {
-            if(args.IsSettingsSelected)
-            {
-
-            }
-            else
+            if(!args.IsSettingsSelected)
             {
                 NavigationViewItem item = args.SelectedItem as NavigationViewItem;
                 switch(item.Tag.ToString())
