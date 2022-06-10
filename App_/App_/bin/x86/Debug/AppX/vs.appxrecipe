@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\GitRepos\App_\App_\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-09T13:39:51.908</Modified>
+      <Modified>2022-06-10T13:22:11.126</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\App_.exe">
       <PackagePath>entrypoint\App_.exe</PackagePath>
-      <Modified>2022-06-09T13:39:47.462</Modified>
+      <Modified>2022-06-10T13:22:01.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\microsoft.bcl.asyncinterfaces\1.1.1\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
@@ -46,13 +46,9 @@
       <PackagePath>Microsoft.Bcl.HashCode.dll</PackagePath>
       <Modified>2020-11-16T14:14:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\microsoft.data.sqlite.core\3.1.25\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
+    <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\microsoft.data.sqlite.core\6.0.5\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
-      <Modified>2022-04-19T11:49:00.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\microsoft.dotnet.platformabstractions\3.1.6\lib\netstandard2.0\Microsoft.DotNet.PlatformAbstractions.dll">
-      <PackagePath>Microsoft.DotNet.PlatformAbstractions.dll</PackagePath>
-      <Modified>2020-06-16T21:37:52.000</Modified>
+      <Modified>2022-04-18T01:51:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\microsoft.entityframeworkcore\3.1.25\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.dll</PackagePath>
@@ -69,10 +65,6 @@
     <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\microsoft.entityframeworkcore.relational\3.1.25\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.Relational.dll</PackagePath>
       <Modified>2022-04-19T11:49:20.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\microsoft.entityframeworkcore.sqlite.core\3.1.25\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Sqlite.dll">
-      <PackagePath>Microsoft.EntityFrameworkCore.Sqlite.dll</PackagePath>
-      <Modified>2022-04-19T11:49:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\microsoft.extensions.caching.abstractions\3.1.25\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Caching.Abstractions.dll</PackagePath>
@@ -102,10 +94,6 @@
       <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
       <Modified>2022-04-18T15:49:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\microsoft.extensions.dependencymodel\3.1.25\lib\netstandard2.0\Microsoft.Extensions.DependencyModel.dll">
-      <PackagePath>Microsoft.Extensions.DependencyModel.dll</PackagePath>
-      <Modified>2022-04-18T12:37:34.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\microsoft.extensions.logging\3.1.25\lib\netstandard2.0\Microsoft.Extensions.Logging.dll">
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
       <Modified>2022-04-18T15:49:44.000</Modified>
@@ -122,25 +110,25 @@
       <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
       <Modified>2022-04-18T15:49:36.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll</PackagePath>
+      <Modified>2020-08-12T15:30:14.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2020-11-20T02:09:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\sqlitepclraw.bundle_e_sqlite3\2.0.4\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+    <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\sqlitepclraw.bundle_winsqlite3\2.1.0\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
       <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
-      <Modified>2020-09-03T10:13:26.000</Modified>
+      <Modified>2022-05-23T13:51:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\sqlitepclraw.core\2.0.4\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+    <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\sqlitepclraw.core\2.1.0\lib\netstandard2.0\SQLitePCLRaw.core.dll">
       <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
-      <Modified>2020-09-03T10:13:04.000</Modified>
+      <Modified>2022-05-23T13:49:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.4\runtimes\win10-x86\nativeassets\uap10.0\e_sqlite3.dll">
-      <PackagePath>e_sqlite3.dll</PackagePath>
-      <Modified>2020-08-17T07:38:50.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.0.4\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
-      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
-      <Modified>2020-09-03T10:13:06.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\sqlitepclraw.provider.winsqlite3\2.1.0\lib\netstandard2.0\SQLitePCLRaw.provider.winsqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.winsqlite3.dll</PackagePath>
+      <Modified>2022-05-23T13:49:52.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\system.collections.immutable\1.7.1\lib\netstandard2.0\System.Collections.Immutable.dll">
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
@@ -154,17 +142,17 @@
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
       <Modified>2020-02-20T20:57:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\system.text.encodings.web\4.7.2\lib\netstandard2.0\System.Text.Encodings.Web.dll">
-      <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
-      <Modified>2021-02-16T12:13:02.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\system.text.json\4.7.2\lib\netstandard2.0\System.Text.Json.dll">
-      <PackagePath>System.Text.Json.dll</PackagePath>
-      <Modified>2020-04-14T15:39:08.000</Modified>
+    <AppxPackagedFile Include="C:\GitRepos\App_\ClassLibrary\bin\x86\Debug\ClassLibrary.dll">
+      <PackagePath>ClassLibrary.dll</PackagePath>
+      <Modified>2022-06-10T13:01:24.032</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-01T21:52:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Марина\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</PackagePath>
+      <Modified>2020-08-12T15:03:04.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -206,27 +194,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\App_.xr.xml">
       <PackagePath>App_.xr.xml</PackagePath>
-      <Modified>2022-06-09T13:35:26.465</Modified>
+      <Modified>2022-06-10T13:22:01.031</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-06-09T13:39:46.853</Modified>
+      <Modified>2022-06-10T13:22:01.309</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\AmountPage.xbf">
       <PackagePath>AmountPage.xbf</PackagePath>
-      <Modified>2022-06-09T13:39:46.854</Modified>
+      <Modified>2022-06-10T13:22:01.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\HistoryPage.xbf">
       <PackagePath>HistoryPage.xbf</PackagePath>
-      <Modified>2022-06-09T13:39:46.854</Modified>
+      <Modified>2022-06-10T13:22:01.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-06-09T13:39:46.855</Modified>
+      <Modified>2022-06-10T13:22:01.331</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\NewOperationPage.xbf">
       <PackagePath>NewOperationPage.xbf</PackagePath>
-      <Modified>2022-06-09T13:39:46.855</Modified>
+      <Modified>2022-06-10T13:22:01.331</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -234,11 +222,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-06-09T09:05:24.450</Modified>
+      <Modified>2022-06-10T12:19:03.473</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitRepos\App_\App_\bin\x86\Debug\Core\App_.exe">
       <PackagePath>App_.exe</PackagePath>
-      <Modified>2022-06-09T13:39:51.895</Modified>
+      <Modified>2022-06-10T13:22:11.043</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

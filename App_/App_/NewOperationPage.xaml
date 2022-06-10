@@ -37,8 +37,8 @@
         <TextBox x:Name="commentsTB" Grid.Row="2" Header="Комментарий:"  HorizontalAlignment="Stretch" Margin="20,0,20,0"
                      FontSize="25" TextWrapping="Wrap" VerticalAlignment="Center" MaxHeight="150"/>
 
-        <Button x:Name="addBtn" Content="Записать" Margin="20,0,100,0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Right"
-                Background="LightBlue" FontSize="25" MinWidth="150" Click="addBtn_Click"/>
+        <Button x:Name="checkBtn" Content="Записать" Margin="20,0,100,0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Right"
+                Background="LightBlue" FontSize="25" MinWidth="150" Click="check_Click"/>
 
         <TextBlock x:Name="test" Grid.Row="3" HorizontalAlignment="Stretch" Margin="20,0,20,0"
                      FontSize="25" TextWrapping="Wrap" VerticalAlignment="Top" MaxHeight="150" Foreground="Red"/>

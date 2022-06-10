@@ -12,19 +12,26 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-
-// Документацию по шаблону элемента "Пустая страница" см. по адресу https://go.microsoft.com/fwlink/?LinkId=234238
+using ClassLibrary;
+using System.Collections.ObjectModel;
+using Microsoft.Toolkit.Uwp.UI.Controls;
+using System.Data;
 
 namespace App_
 {
-    /// <summary>
-    /// Пустая страница, которую можно использовать саму по себе или для перехода внутри фрейма.
-    /// </summary>
     public sealed partial class HistoryPage : Page
     {
+        public ObservableCollection<History> list;
         public HistoryPage()
         {
             this.InitializeComponent();
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            list = Class.GetAllData();
+            
+            dataGrid.ItemsSource = list;
         }
     }
 }

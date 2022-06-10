@@ -1,1 +1,2 @@
 C:\GitRepos\App_\App_\App_.csproj;x86
+C:\GitRepos\App_\ClassLibrary\ClassLibrary.csproj;x86

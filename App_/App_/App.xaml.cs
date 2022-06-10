@@ -14,7 +14,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-using Microsoft.EntityFrameworkCore;
+using ClassLibrary;
 
 namespace App_
 {
@@ -24,11 +24,7 @@ namespace App_
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
-
-            using (var db=new Context())
-            {
-                db.Database.Migrate();
-            }
+            Class.InitializeDatabase();
         }
 
         protected override void OnLaunched(LaunchActivatedEventArgs e)

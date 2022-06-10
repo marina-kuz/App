@@ -121,7 +121,7 @@
     <value>Cannot convert object of type '{sourceType}' to object of type '{targetType}'.</value>
   </data>
   <data name="EncryptionNotSupported" xml:space="preserve">
-    <value>You specified a password in the connection string, but the native SQLite library you're using doesn't support encryption.</value>
+    <value>You specified a password in the connection string, but the native SQLite library '{libraryName}' doesn't support encryption.</value>
   </data>
   <data name="ConnectionStringRequiresClosedConnection" xml:space="preserve">
     <value>ConnectionString cannot be set when the connection is open.</value>
@@ -136,7 +136,7 @@
     <value>Cannot bind the value for parameter '{parameterName}' because multiple matching parameters were found in the command text. Specify the parameter name with the symbol prefix, e.g. '@{parameterName}'.</value>
   </data>
   <data name="InvalidIsolationLevel" xml:space="preserve">
-    <value>The IsolationLevel '{isolationLevel}' is invalid.</value>
+    <value>The IsolationLevel '{isolationLevel}' is not supported.</value>
   </data>
   <data name="ParameterNotFound" xml:space="preserve">
     <value>A SqliteParameter with ParameterName '{parameterName}' is not contained by this SqliteParameterCollection.</value>
@@ -146,6 +146,9 @@
   </data>
   <data name="InvalidEnumValue" xml:space="preserve">
     <value>The {enumType} enumeration value, {value}, is invalid.</value>
+  </data>
+  <data name="UnknownCollection" xml:space="preserve">
+    <value>The requested collection '{collectionName}' is not defined.</value>
   </data>
   <data name="CallRequiresOpenConnection" xml:space="preserve">
     <value>{methodName} can only be called when the connection is open.</value>
@@ -157,7 +160,7 @@
     <value>Offset and count were out of bounds for the buffer.</value>
   </data>
   <data name="KeywordNotSupported" xml:space="preserve">
-    <value>Keyword not supported: '{keyword}'.</value>
+    <value>Connection string keyword '{keyword}' is not supported. For a possible alternative, see https://go.microsoft.com/fwlink/?linkid=2142181.</value>
   </data>
   <data name="UDFCalledWithNull" xml:space="preserve">
     <value>The SQL function '{function}' was called with a NULL argument at ordinal {ordinal}. Create the function using a Nullable parameter or rewrite your query to avoid passing NULL.</value>
@@ -169,7 +172,10 @@
     <value>SQLite Error {errorCode}: '{message}'.</value>
   </data>
   <data name="InvalidParameterDirection" xml:space="preserve">
-    <value>The ParameterDirection '{direction}' is invalid.</value>
+    <value>The ParameterDirection '{direction}' is not supported.</value>
+  </data>
+  <data name="TooManyRestrictions" xml:space="preserve">
+    <value>More restrictions were provided than the collection '{collectionName}' supports.</value>
   </data>
   <data name="CannotStoreNaN" xml:space="preserve">
     <value>Cannot store 'NaN' values.</value>
@@ -183,23 +189,23 @@
   <data name="WriteNotSupported" xml:space="preserve">
     <value>Stream does not support writing.</value>
   </data>
+  <data name="AmbiguousColumnName" xml:space="preserve">
+    <value>The name '{name}' is ambiguous between columns '{column1}' and '{column2}'. Specify one using its exact case.</value>
+  </data>
   <data name="ResizeNotSupported" xml:space="preserve">
     <value>The size of a blob may not be changed by the SqliteBlob API. Use an UPDATE command instead.</value>
   </data>
   <data name="DefaultNativeError" xml:space="preserve">
-    <value>For more information on this error code see http://sqlite.org/rescode.html</value>
+    <value>For more information on this error code see https://www.sqlite.org/rescode.html</value>
   </data>
   <data name="InvalidCommandType" xml:space="preserve">
-    <value>The CommandType '{commandType}' is invalid.</value>
+    <value>The CommandType '{commandType}' is not supported.</value>
   </data>
   <data name="RequiresSet" xml:space="preserve">
     <value>{propertyName} must be set.</value>
   </data>
   <data name="DataReaderClosed" xml:space="preserve">
     <value>Invalid attempt to call {operation} when reader is closed.</value>
-  </data>
-  <data name="OpenRequiresSetConnectionString" xml:space="preserve">
-    <value>ConnectionString must be set before Open can be called.</value>
   </data>
   <data name="DataReaderOpen" xml:space="preserve">
     <value>An open reader is already associated with this command. Close it before opening a new one.</value>
@@ -208,13 +214,10 @@
     <value>SqliteConnection does not support nested transactions.</value>
   </data>
   <data name="TransactionConnectionMismatch" xml:space="preserve">
-    <value>The transaction object is not associated with the connection object.</value>
+    <value>The transaction object is not associated with the same connection object as this command.</value>
   </data>
   <data name="TransactionCompleted" xml:space="preserve">
     <value>This SqliteTransaction has completed; it is no longer usable.</value>
-  </data>
-  <data name="CallRequiresSetCommandText" xml:space="preserve">
-    <value>CommandText must be set before {methodName} can be called.</value>
   </data>
   <data name="UnknownDataType" xml:space="preserve">
     <value>No mapping exists from object type {typeName} to a known managed provider native type.</value>

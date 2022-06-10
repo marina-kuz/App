@@ -11,10 +11,12 @@
     <Grid>
         <TextBlock Text="Баланс:" HorizontalAlignment="Left" Margin="100,50,0,0" 
                      FontSize="25" TextWrapping="Wrap" VerticalAlignment="Top" MaxHeight="150" />
-        <!--<DataTemplate  x:DataType="local:Person">
-            <TextBlock x:Name="amountTB" Text="{x:Bind Amount_money}" HorizontalAlignment="Left" Margin="100,100,0,0" 
-                     FontSize="25" TextWrapping="Wrap" VerticalAlignment="Top" MaxHeight="150" 
-                   />
-        </DataTemplate>-->
+
+        <TextBlock Text="$" HorizontalAlignment="Left" Margin="100,100,0,0" 
+                     FontSize="25" TextWrapping="Wrap" VerticalAlignment="Top" MaxHeight="150"/>
+        
+        <TextBlock x:Name="amountTB"  HorizontalAlignment="Left" Margin="120,100,0,0" 
+                     FontSize="25" TextWrapping="Wrap" VerticalAlignment="Top" MaxWidth="150"/>
+        
     </Grid>
 </Page>
